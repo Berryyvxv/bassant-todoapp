@@ -10,10 +10,10 @@ const ToDoList: React.FC<TodoListProps> = ({tasks}) => {
   <div className="overflow-x-auto">
   <table className="table w-full">
     {/* head */}
-    <thead>
+    <thead className="bg-base-200">
       <tr>
         <th>TASKS</th>
-        <th>ACTIONS</th>
+        <th className="ml-auto">ACTIONS</th>
       </tr>
     </thead>
     <tbody>
